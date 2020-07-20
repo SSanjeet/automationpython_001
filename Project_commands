@@ -1,0 +1,14 @@
+Open the Terminal : behave <path of the feature file>
+Allure report in Terminal command:
+===================================
+behave -f allure_behave.formatter:AllureFormatte
+r -o C:\Users\91987\PycharmProjects\BDDFramework\Reports
+
+Go to cmd line :
+=================
+allure serve C:\Users\91987\PycharmProjects\BDDFramework\Reports
+
+====================================
+Report URL:
+http://192.168.0.104:63901/index.html#graph
+
